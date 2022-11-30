@@ -1,0 +1,12 @@
+package dynamicTreemaps.util
+
+
+enum class Technique {
+    NMAP_ALTERNATE_CUT,
+    NMAP_EQUAL_WEIGHTS,
+    SQUARIFIED,
+    ORDERED_TREEMAP_PIVOT_BY_MIDDLE,
+    ORDERED_TREEMAP_PIVOT_BY_SIZE,
+    SLICE_AND_DICE, STRIP,
+    SPIRAL
+}
